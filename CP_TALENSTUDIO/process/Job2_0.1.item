@@ -2,18 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="Default"/>
   <parameters>
-    <elementParameter field="DIRECTORY" name="COMP_DEFAULT_FILE_DIR" value="C:/Program Files (x86)/Talend-Studio/studio/workspace" show="false"/>
-    <elementParameter field="DIRECTORY" name="TDQ_DEFAULT_PROJECT_DIR" value="C:/Program Files (x86)/Talend-Studio/studio/workspace/Cp_TalenStudio-499225721/CP_TALENSTUDIO" show="false"/>
-    <elementParameter field="CHECK" name="LOG4J_ACTIVATE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="LOG4J2_ACTIVATE" value="true" show="false"/>
-    <elementParameter field="DIRECTORY" name="PRODUCT_ROOT_DIR" value="C:/Program Files (x86)/Talend-Studio/studio" show="false"/>
-    <elementParameter field="DIRECTORY" name="DQ_REPORTING_BUNDLE_DIR" value="C:/Program Files (x86)/Talend-Studio/studio/plugins/org.talend.dataquality.reporting_8.0.2.20240614_0402" show="false"/>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
-    <elementParameter field="TEXT" name="AUTHOR" value="Pirca, Nicole" show="false"/>
-    <elementParameter field="TEXT" name="STATUS" value="" show="false"/>
-    <elementParameter field="TEXT" name="NAME" value="Job2" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.1" show="false"/>
-    <elementParameter field="TEXT" name="PURPOSE" value="Visualizar la interaccion de ramas del Job2" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
@@ -31,7 +20,6 @@
     <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
     <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
-    <elementParameter field="TEXT" name="PROJECT_TECHNICAL_NAME" value="CP_TALENSTUDIO" show="false"/>
     <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
     <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="false" show="false"/>
     <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
@@ -257,6 +245,12 @@
     <elementParameter field="CHECK" name="DISPLAY_READABLE_DURATION" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
+  <node componentName="tSleep" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="280">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSleep_1" show="false"/>
+    <elementParameter field="TEXT" name="PAUSE" value="1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSleep_1"/>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
@@ -279,6 +273,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tChronometerStop_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSleep_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
