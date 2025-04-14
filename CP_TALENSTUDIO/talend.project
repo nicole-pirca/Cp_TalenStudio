@@ -4,4 +4,14 @@
     <migrationTask xmi:id="_STPvkBjQEfCKKv3E7CbXdA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_SRmw0RjQEfCKKv3E7CbXdA" login="npirca@prediqt_nfr" firstName="Nicole" lastName="Pirca" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90wgBl0EfCJEOKxOC-s9w" login="kent.luna@prediqt_nfr" firstName="Kent" lastName="Luna" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90wgRl0EfCJEOKxOC-s9w" login="eduardo.garcia@prediqt_nfr" firstName="Eduardo" lastName="García" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90wghl0EfCJEOKxOC-s9w" login="walter.anchante@prediqt_nfr" firstName="Alonso" lastName="Anchante" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90wgxl0EfCJEOKxOC-s9w" login="andres.valverde@prediqt_nfr" firstName="Walter" lastName="Valverde" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90whBl0EfCJEOKxOC-s9w" login="omar.santivanez@prediqt_nfr" firstName="Omar" lastName="Santivañez" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90whRl0EfCJEOKxOC-s9w" login="gustavo.gallarday@prediqt_nfr" firstName="Gustavo" lastName="Gallarday" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90whhl0EfCJEOKxOC-s9w" login="mayra.jara@prediqt_nfr" firstName="Mayra" lastName="Jara" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90whxl0EfCJEOKxOC-s9w" login="ricardo.linares@prediqt_nfr" firstName="Ricardo" lastName="Linares" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90wiBl0EfCJEOKxOC-s9w" login="anibal.galarreta@prediqt_nfr" firstName="Anibal" lastName="Galarreta" type="DQ"/>
+  <TalendProperties:User xmi:id="_M90wiRl0EfCJEOKxOC-s9w" login="alexandra.martinez@prediqt_nfr" firstName="alexandra" lastName="martinez" type="DQ"/>
 </xmi:XMI>
