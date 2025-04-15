@@ -234,7 +234,7 @@
     <elementParameter field="TEXT" name="CAPTION" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="280">
+  <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="920" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tChronometerStop_1" show="false"/>
     <elementParameter field="RADIO" name="SINCE_BEGINNING" value="true"/>
     <elementParameter field="RADIO" name="SINCE_STARTER" value="false"/>

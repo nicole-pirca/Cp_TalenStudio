@@ -19,10 +19,10 @@
     <talend.job.folder></talend.job.folder>
     <talend.job.context>Default</talend.job.context>
     <talend.job.path>cp_talenstudio</talend.job.path>
-    <talend.job.git.commit.id></talend.job.git.commit.id>
+    <talend.job.git.commit.id>af9b9beda8816b43edbedd310c2d4edbd831bff1</talend.job.git.commit.id>
     <project.distribution-management.repository.id>${project.distributionManagement.repository.id}</project.distribution-management.repository.id>
     <talend.job.stat>true</talend.job.stat>
-    <talend.job.git.author></talend.job.git.author>
+    <talend.job.git.author>npirca@prediqt.ec</talend.job.git.author>
     <talend.job.jvmargs>-Xms256M -Xmx1024M -Dfile.encoding=UTF-8 </talend.job.jvmargs>
     <talend.job.id>_tZmtEBl5EfCJEOKxOC-s9w</talend.job.id>
     <talend.job.version>0.1</talend.job.version>
@@ -41,7 +41,7 @@
     <talend.product.version>8.0.1.20241219_0901-patch</talend.product.version>
     <talend.project.name>CP_TALENSTUDIO</talend.project.name>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
-    <talend.job.git.commit.date></talend.job.git.commit.date>
+    <talend.job.git.commit.date>1744667727000</talend.job.git.commit.date>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.job.name>Job1</talend.job.name>
